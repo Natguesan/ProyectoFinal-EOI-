@@ -1,0 +1,41 @@
+<div class="contacto">
+  <div class="arriba">
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ "Contacto.Contacta" | translate }}</h5>
+          <p class="card-text">{{ "Contacto.Descripcion" | translate }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="abajo">
+    <div class="izquierda">
+      <div class="card" style="width: 17rem;">
+          <div class="card-body">
+        <i class="far fa-envelope"></i>
+        <h5 class="card-title">{{ "Contacto.Email" | translate }}</h5>
+          <p class="card-text">{{ "Contacto.EmailTexto" | translate }}</p>
+        <form
+          action="mailto:laotradimension@outlook.es"
+          method="post"
+          enctype="text/plain"
+        >
+          <button mat-raised-button color="primary"type="submit">{{ "Contacto.Enviar" | translate }}</button>
+        </form>
+    </div>
+      </div>
+    </div>
+    <div class="derecha">
+        <div class="card" style="width: 17rem;">
+            <div class="card-body">
+                <i class="fas fa-mobile-alt"></i>
+          <h5 class="card-title">{{ "Contacto.Telf" | translate }}</h5>
+            <p class="card-text">{{ "Contacto.TelfTexto" | translate }}</p>
+        
+            <p class="centro">{{ "Contacto.Numero" | translate }}</p>
+      </div>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,107 @@
+@import "src/styles.scss";
+.carousel {
+    margin-top: 60px;
+    display: flex;
+    max-height: 80%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.grancaja {
+    .cajita {
+        .titulo {
+            h1 {
+                font-family: $fontnavbar;
+                text-align: center;
+                color: $letraoscura;
+            }
+
+            .barritas {
+                display: flex;
+                justify-content: space-between;
+                .barrita {
+                    height: 5px;
+                    width: 30%;
+                    background-color: $colorsecundario;
+                }
+            }
+        }
+    }
+    .elementos {
+        display: flex;
+        justify-content: space-between;
+        .columnadrcha {
+            margin: 1px 1px;
+            img {
+                margin: 1px 0px }
+        }
+        .columnaizq {
+            margin: 1px 1px;
+            img {
+                margin: 1px 0px }
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .carousel {
+        margin: 2px 2px;
+        img {
+            width: 100%;
+            height: 70%;
+            object-fit: contain;
+        }
+    }
+    .elementos {
+        flex-direction: column;
+        .columnadrcha {
+            flex: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .columnaizq {
+            flex: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media all and (min-width: 992px) {
+    .carousel {
+        img {
+            width: 100%;
+            height: 685px;
+        }
+    }
+    .elementos {
+        width: 100%;
+        .columnadrcha {
+            flex: 50%;
+            img {
+                width: 100%;
+            }
+        }
+        .columnaizq {
+            flex: 50%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (min-width: 375px) {
+    .titulo {
+        h1 {
+            font-size: $mytitlefontsize;
+        }
+    }
+}
+@media screen and (max-width: 374px) {
+    .titulo {
+        h1 {
+            font-size: $mysubnavbarfontsize;
+        }
+    }
+}

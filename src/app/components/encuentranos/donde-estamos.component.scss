@@ -1,0 +1,40 @@
+@import "src/styles.scss";
+.caja {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    h1 {
+        font-family: $fontnavbar;
+        font-size: $mytitlefontsize;
+        text-align: center;
+        color: $letraoscura;
+    }
+    .info {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;       
+       
+        p {
+            margin-left: 5px;
+            font-family: $fuentecuerpo;
+        }
+        b {
+            color: $colorsecundario;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    iframe {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 426px) {
+    iframe {
+        width: 40%;
+
+    }
+}

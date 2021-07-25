@@ -1,0 +1,71 @@
+{
+    "Navbar" : {
+        "NuestraDimension": "Nuestra Dimensión",
+        "Encuentranos":"Encuéntranos",
+        "Contacto":"Contáctanos",
+        "Redes": "Redes Sociales",
+        "IniciarSesion": "Iniciar sesión",
+        "Registrarme": "Registrarse",
+        "Salas": "Salas",
+        "Taberna": "Taberna",
+        "ModoOscuro": "Modo oscuro",
+        "MiPerfil" : "Mi perfil",
+        "CerrarSesion": "Cerrar sesión",
+        "Reservar" : "Reservar",
+        "MisReservas" : "Mis reservas",
+        "Idioma" : {
+            "Nombre" : "Idioma",
+            "Español" : "Español",
+            "Ingles":"Inglés"
+        }
+    },
+    "Home" : {
+        "Descubre": "Descubre una dimensión",
+        "Friki" : "muy Friki",
+        "Desc" : "../../../assets/images/Desc.png",
+        "Cumple" : "../../../assets/images/cumpleaños.png",
+        "3X2" : "../../../assets/images/3x2.png",
+        "Paneles" : {
+            "Izq" : {
+                "Taberna" : "../../../assets/images/paneltaberna.jpg",
+                "Eventos" : "../../../assets/images/paneleventos.jpg"
+            },
+            "Drch" : {
+                "Salas" : "../../../assets/images/panelsalas.jpg",
+                "Juegos" : "../../../assets/images/panelsjuegos.jpg"
+            }
+        }
+
+    },
+    "Encuentranos" : {
+        "Donde" : "¿ Dónde Estamos ?",
+        "Direccion" : "Dirección:",
+        "Calle" : "Calle de la imaginación, local Otro Mundo",
+        "Telf" : "Teléfono:",
+        "Numero" : "Desconocido"
+    },
+    "Contacto" : {
+        "Contacta" : "Contacta con nosotros",
+        "Descripcion" : "Por favor, utilice uno de los siguientes métodos para poder atender su consulta.",
+        "Email" : "Email",
+        "EmailTexto" : "Envíanos un mensaje de correo electrónico y te responderemos lo antes posible.",
+        "Enviar" : "Enviar correo",
+        "Telf" : "Móvil",
+        "TelfTexto" : "No dudes en llamar a Natalia, la persona de contacto, si necesitas cualquier cosa.",
+        "Numero" : "+34 610 28 02 11"
+    },
+    "Redes" : {
+        "Instagram" : {
+            "Titulo" : "No temáis... ¡Atreveros a descubrir un mundo de otra dimensión!",
+            "Cuerpo" : "Síguenos y comparte tus experiencias en la otra dimensión."
+        },
+        "Twitter" : {
+            "Titulo" : "¿Portal a otra dimensión? ¡Aquí justamente hay uno!",
+            "Cuerpo" : "Síguenos y mantente al día de todas las novedades."
+        },
+        "Facebook" : {
+            "Titulo" : "¡Explorar otra dimensión es mejor si lo compartes!",
+            "Cuerpo" : "Síguenos en Facebook, hazte fan y únete a otro mundo."
+        }
+    }
+}

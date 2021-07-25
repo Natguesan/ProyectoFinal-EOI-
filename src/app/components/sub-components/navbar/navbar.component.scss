@@ -1,0 +1,161 @@
+@import "src/styles.scss";
+nav {
+    width: 100%;
+    font-family: $fontnavbar;
+    z-index: 800;
+    .active{ margin-top: 15px;
+        margin-bottom: -5px;
+    }
+}
+.foto {
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    margin-top: -7px;
+}
+.foto2 {
+  /*  width: 100%;
+    height: 100%;
+    border-radius: 50px; */
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    margin-top: -7px;
+    margin-left: -7px;
+}
+.hidden {
+    display: none;
+}
+
+@media all and (min-width: 992px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        .navizq {
+            display: inline-flex;
+            width: 20%;
+            .navbar-brand {
+                justify-content: center;
+                width: 100%;
+            }
+        }
+        .navcentral {
+            display: flex;
+            width: 80%; 
+ 
+            .navbar-nav{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+
+            }
+        }
+        .navdrch {
+
+            width: 20%;
+            .user{
+                margin-left: 25px;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 991px) {
+    .dropdown:hover .dropdown-menu,
+    .dropdown,
+    .matmenu {
+        border: 0px;
+
+    }
+
+    .dropdown-menu,
+    .matmenu {
+        background: none;
+    }
+    .navizq {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .navbar-brand {
+            justify-content: center;
+        }
+        .matbutton {
+      margin-top: 14px ;
+        }
+    }
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+}
+.botnav {
+    border: none;
+    background: none;
+    box-shadow: none;
+    padding: 10px;
+    color: $negrogrisaceo !important;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.dropdown-item:hover,
+.matitem:hover {
+    background-color: $grisbotones;
+}
+.bg-custom {
+    background-image: $myfavoritegradiant;
+}
+.nav-item {
+    font-size: $mynavbarfontsize;
+}
+.matitem,
+.dropdown-item {
+    font-size: $mysubnavbarfontsize;
+    font-family: $fontnavbar;
+}
+.matbuttons {
+    font-family: $fontnavbar;
+    font-size: $mysubnavbarfontsize;
+    font-weight: bold;
+}
+.darkmode {
+    label {
+        margin-right: 15px;
+    }
+}
+.user{
+    margin-top: -4px;
+}
+.modal-header, .modal-footer{
+    border: none;
+}
+.modal-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+    .login {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        font-size: 16px;
+        font-family:$fuentecuerpo;
+        padding: 15px;
+        color: $negrogrisaceo;
+        border-radius: 25px;
+        img {
+            width: 10%;
+            margin: auto 5px;
+        }
+        &:hover {
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+        }
+    }
+}

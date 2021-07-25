@@ -1,0 +1,114 @@
+@import "src/styles.scss";
+.arriba {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-bottom: 40px;
+    background-color:rgba(230, 243, 252, 0.26);
+    .container {
+        .card {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            flex-direction: row;
+            border-radius: 25px;
+            background-image: url(../../../assets/images/fondocontacto.jpg);
+            background-size: cover;
+
+            h5 {
+                font-size: $mytitlefontsize;
+                font-family: $fontnavbar;
+                color: $letraoscura;
+            }
+            p {
+                font-family: $fuentecuerpo;
+            }
+        }
+    }
+}
+.abajo {
+    display: flex;
+    justify-content: space-evenly;
+
+    .izquierda {
+        .card {
+            border-radius: 15px;
+            height: 300px;
+            .far {
+                font-size: 60px;
+                display: flex;
+                justify-content: center;
+                color: $colorsecundario;
+            }
+            h5 {
+                text-align: center;
+                font-size: $mytitlefontsize;
+                font-family: $fontnavbar;
+                color: $letraoscura;
+            }
+            p {
+                font-family: $fuentecuerpo;
+            }
+            form {
+                width: 100%;
+                button {
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    left: 60px;
+                }
+            }
+        }
+    }
+    .derecha {
+        .card {
+            border-radius: 15px;
+            height: 300px;
+            .fas {
+                font-size: 60px;
+                display: flex;
+                justify-content: center;
+                color: $colorsecundario;
+            }
+            h5 {
+                text-align: center;
+                font-size: $mytitlefontsize;
+                font-family: $fontnavbar;
+                color: $letraoscura;
+            }
+            p {
+                font-family: $fuentecuerpo;
+            }
+            .centro {
+
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 425px){
+.arriba {
+    .card {
+        width: 90%;
+    }
+}
+    .abajo {
+        flex-direction: column;
+        align-items: center;
+        .izquierda {
+            margin-bottom: 25px;
+        }
+        .derecha {
+            margin-bottom: 25px;
+        }
+    }
+
+}
+@media screen and (min-width : 426px){
+    .arriba {
+        .card {
+            width: 65%;
+        }
+    }
+
+}

@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@use '~@angular/material' as mat;
+@include mat.core();
+
+$LaOtraDimension-primary: mat.define-palette(mat.$cyan-palette,50);
+$LaOtraDimension-accent: mat.define-palette(mat.$pink-palette, 100);
+$LaOtraDimension-warn: mat.define-palette(mat.$grey-palette, 600);
+
+
+$LaOtraDimension-theme: mat.define-light-theme((
+  color: (
+    primary: $LaOtraDimension-primary,
+    accent: $LaOtraDimension-accent,
+    warn: $LaOtraDimension-warn,
+  )
+));
+
+@include mat.all-component-themes($LaOtraDimension-theme);
+
+
+html, body { height: 100%;}
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+
+$fontnavbar: 'Patrick Hand SC', cursive;
+$fuentecuerpo: 'Lemonada', cursive;
+$myfavoritegradiant: linear-gradient(89.65deg, #faf5f5,#e0f7fa,#f8bbd0);
+$colorprincipal:#e0f7fa;
+$colorsecundario:#f8bbd0;
+$blancoroto:#EFECEC;
+$letraoscura: rgb(110, 175, 236);
+$negrogrisaceo:#757575;
+$grisbotones:rgba(0, 0, 0, 0.1);
+$titlefontsize: 24px;
+$mynavbarfontsize: 24px;
+$mysubnavbarfontsize: 20px;
+$mytitlefontsize: 40px;
+$bgdarkmode: rgb(32, 32, 32);

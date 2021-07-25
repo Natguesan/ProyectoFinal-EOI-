@@ -1,0 +1,91 @@
+<div
+  id="carouselExampleIndicators"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img
+        src="{{'Home.Desc' | translate}}"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item" data-bs-interval="10000">
+      <img
+        src="{{'Home.3X2' | translate}}"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+    <div class="carousel-item" data-bs-interval="10000">
+      <img 
+        src="{{'Home.Cumple' | translate}}"
+        class="d-block w-100"
+        alt="..."
+      />
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="grancaja">
+  <div class="cajita">
+    <div class="titulo">
+      <h1>{{ "Home.Descubre" | translate}}</h1>   
+     <div class="barritas">
+      <div class="barrita"></div>
+      <div class="barrita"></div>
+    </div>
+      <h1>{{ "Home.Friki" | translate }}</h1>
+    </div>
+<div class="elementos">
+    <div class="columnaizq">
+        <a routerLink="/our-dimension/tavern"><img src="{{ 'Home.Paneles.Izq.Taberna' | translate }}"></a>
+        <a routerLink="/events"><img src="{{ 'Home.Paneles.Izq.Eventos' | translate }}"></a>
+    </div>
+    <div class="columnadrcha">
+        <a routerLink="/our-dimension/rooms"><img src="{{ 'Home.Paneles.Drch.Salas' | translate}}"></a>
+        <img src="{{ 'Home.Paneles.Drch.Juegos' | translate}}">
+    </div>
+</div>
+  </div>
+</div>

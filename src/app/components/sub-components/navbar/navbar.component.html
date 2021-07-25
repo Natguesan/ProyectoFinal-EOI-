@@ -1,0 +1,175 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-custom" ngStickyNav>
+  <div class="navizq">
+        <button
+      class="navbar-toggler botnav izq"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <button class="navbar-brand botnav active" [routerLink]="''">
+      <img
+        src="../../../../assets/images/logocontitulo.png"
+        style="
+          width: 150px;
+          height: 80px;
+          margin-top: -25px;
+          margin-bottom: -5px;
+        "
+      />
+    </button>
+
+    <button
+      mat-mini-fab
+      color="warn"
+      class="nav-link matbutton"
+      data-toggle="dropdown"
+      [matMenuTriggerFor]="usermenu"
+      *ngIf="isMobile === true"
+    ><img *ngIf="logeado === true" class="foto" src="{{user.photoURL}}" />
+      <mat-icon
+        *ngIf="logeado === false"
+        aria-hidden="false"
+        aria-label="Example home icon"
+        
+        >person</mat-icon
+      >
+      
+    </button>
+  </div>
+  <div class="navcentral">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav">
+        <div class="nav-item dropdown">
+          <button
+            class="nav-link dropdown-toggle botnav"
+            data-bs-toggle="dropdown"
+          >
+            {{ "Navbar.NuestraDimension" | translate }}
+          </button>
+          <div class="dropdown-menu">
+            <button class="dropdown-item botnav" [routerLink]="'/our-dimension/rooms'">
+              {{ "Navbar.Salas" | translate }}
+            </button>
+            <button class="dropdown-item botnav" [routerLink]="'/our-dimension/tavern'">
+              {{ "Navbar.Taberna" | translate }}
+            </button>
+          </div>
+        </div>
+        <li class="nav-item">
+          <button class="nav-link botnav" [routerLink]="'/find-us'">
+            {{ "Navbar.Encuentranos" | translate }}
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link botnav" [routerLink]="'/contact-us'">
+            {{ "Navbar.Contacto" | translate }}
+          </button>
+        </li>
+
+        <li class="nav-item">
+          <button class="nav-link botnav" [routerLink]="'/social-media'">
+            {{ "Navbar.Redes" | translate }}
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>  
+    <div class="navdrch">
+      <ul class="navbar-nav">
+        <div class="botones" *ngIf="isMobile === false">
+      <li class="nav-item matbutton" *ngIf="logeado === false">
+        <button mat-flat-button color="warn" class="nav-link matbuttons hidden" [routerLink]="'/register'">
+          {{ "Navbar.Registrarme" | translate }}
+        </button>
+      </li>
+      <li class="nav-item matbutton" *ngIf="logeado === true">
+        <button mat-flat-button class="nav-link matbuttons" [routerLink]="'/book'" >
+          {{ "Navbar.Reservar" | translate }}
+          <i class="material-icons">today</i>
+        </button>
+      </li>
+    </div>
+      <div class="nav-item dropdown user">
+        <button
+          mat-mini-fab
+          color="warn"
+          class="nav-link matbutton"
+          data-toggle="dropdown"
+          [matMenuTriggerFor]="usermenu"
+          *ngIf="isMobile === false"
+        >
+          <mat-icon
+            *ngIf="logeado === false"
+            aria-hidden="false"
+            aria-label="Example home icon"
+            >person</mat-icon
+          >
+          <img *ngIf="logeado === true" class="foto2" src="{{user.photoURL}}" />
+        </button>
+        <!-- #docregion sub-menu -->
+        <mat-menu class="matmenu" #usermenu="matMenu">
+          <button *ngIf="logeado === true" class="matitem" mat-menu-item [routerLink]="'/profile'">
+            {{ "Navbar.MiPerfil" | translate }}
+          </button>
+          <button
+            class="matitem"
+            mat-menu-item
+            [matMenuTriggerFor]="idiomasmenu"
+          >
+            {{ "Navbar.Idioma.Nombre" | translate }}
+          </button>
+          <div class="darkmode matitem" mat-menu-item>
+            <label>{{ "Navbar.ModoOscuro" | translate }}</label>
+            <mat-slide-toggle class="matitem"></mat-slide-toggle>
+          </div>
+          <button *ngIf="logeado === false" class="matitem" mat-menu-item data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            {{ "Navbar.IniciarSesion" | translate }}
+          </button>
+          <button *ngIf="logeado === false && isMobile === true" class="matitem hidden" [routerLink]="'/register'" mat-menu-item>
+            {{ "Navbar.Registrarme" | translate }}
+          </button>
+          <button *ngIf="logeado === true && isMobile === true" class="matitem" [routerLink]="'/book'" mat-menu-item>
+            {{ "Navbar.Reservar" | translate }}
+          </button>
+          <button *ngIf="logeado === true" class="matitem" mat-menu-item (click)="logout()">
+            {{ "Navbar.CerrarSesion" | translate }}
+          </button>
+        </mat-menu>
+
+        <mat-menu class="matmenu" #idiomasmenu="matMenu">
+          <button class="matitem" mat-menu-item (click)="idioma('es')">
+            {{ "Navbar.Idioma.Español" | translate }}
+          </button>
+          <button class="matitem" mat-menu-item (click)="idioma('en')">
+            {{ "Navbar.Idioma.Ingles" | translate }}
+          </button>
+        </mat-menu>
+      </div>
+      </ul>
+    </div>
+</nav>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img src="../../../../assets/images/logocontitulo.png">
+       <button mat-raised-button color="primary" class="login" data-bs-dismiss="modal" (click)="login()">
+        <img src="../../../../assets/images/google-logo.png">
+        Entrar con Google
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>

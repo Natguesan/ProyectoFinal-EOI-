@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "laotradimension-3c4e6": {
+      "hosting": {
+        "LaOtraDimension": [
+          "laotradimension-3c4e6"
+        ]
+      }
+    }
+  }
+}
