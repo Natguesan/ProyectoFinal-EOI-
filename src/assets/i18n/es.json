@@ -1,106 +1,178 @@
 {
-    "Navbar" : {
-        "NuestraDimension": "Nuestra Dimensión",
-        "Encuentranos":"Encuéntranos",
-        "Contacto":"Contáctanos",
-        "Redes": "Redes Sociales",
-        "IniciarSesion": "Iniciar sesión",
-        "Registrarme": "Registrarse",
-        "Salas": "Salas",
-        "Taberna": "Taberna",
-        "ModoOscuro": "Modo oscuro",
-        "MiPerfil" : "Mi perfil",
-        "CerrarSesion": "Cerrar sesión",
-        "Reservar" : "Reservar",
-        "MisReservas" : "Mis reservas",
-        "Idioma" : {
-            "Nombre" : "Idioma",
-            "Español" : "Español",
-            "Ingles":"Inglés"
-        }
-    },
-    "Home" : {
-        "Descubre": "Descubre una dimensión",
-        "Friki" : "muy Friki",
-        "Desc" : "../../../assets/images/Desc.png",
-        "Cumple" : "../../../assets/images/cumpleaños.png",
-        "3X2" : "../../../assets/images/3x2.png",
-        "Paneles" : {
-            "Izq" : {
-                "Taberna" : "../../../assets/images/paneltaberna.jpg",
-                "Eventos" : "../../../assets/images/paneleventos.jpg"
-            },
-            "Drch" : {
-                "Salas" : "../../../assets/images/panelsalas.jpg",
-                "Juegos" : "../../../assets/images/panelsjuegos.jpg"
-            }
-        }
-
-    },
-    "Encuentranos" : {
-        "Donde" : "¿ Dónde Estamos ?",
-        "Direccion" : "Dirección:",
-        "Calle" : "Calle de la imaginación, local Otro Mundo",
-        "Telf" : "Teléfono:",
-        "Numero" : "Desconocido"
-    },
-    "Contacto" : {
-        "Contacta" : "Contacta con nosotros",
-        "Descripcion" : "Por favor, utilice uno de los siguientes métodos para poder atender su consulta.",
-        "Email" : "Email",
-        "EmailTexto" : "Envíanos un mensaje de correo electrónico y te responderemos lo antes posible.",
-        "Enviar" : "Enviar correo",
-        "Telf" : "Móvil",
-        "TelfTexto" : "No dudes en llamar a Natalia, la persona de contacto, si necesitas cualquier cosa.",
-        "Numero" : "+34 610 28 02 11"
-    },
-    "Redes" : {
-        "Instagram" : {
-            "Titulo" : "No temáis... ¡Atreveros a descubrir un mundo de otra dimensión!",
-            "Cuerpo" : "Síguenos y comparte tus experiencias en la otra dimensión."
-        },
-        "Twitter" : {
-            "Titulo" : "¿Portal a otra dimensión? ¡Aquí justamente hay uno!",
-            "Cuerpo" : "Síguenos y mantente al día de todas las novedades."
-        },
-        "Facebook" : {
-            "Titulo" : "¡Explorar otra dimensión es mejor si lo compartes!",
-            "Cuerpo" : "Síguenos en Facebook, hazte fan y únete a otro mundo."
-        }
-    },
-    "Reservas" : {
-        "Sala": {
-            "Reserva":"Reservar sala",
-            "EligeSala":"Elige una sala",
-            "Siguiente":"Siguiente",
-            "EligeFecha":"Elige una fecha",
-            "Sala":"Sala",
-            "Fecha":"Fecha",
-            "EligeHora" : "Elige una hora",
-            "Hora" : "Hora",
-            "Cancelar" : "Cancelar",
-            "Confirmar" : "Confirmar reserva",
-            "Ninguna" : "-- Ninguna --",
-            "Salas" : "Salas",
-            "Borrar" : "Cancelar reserva"
-            
-        },
-        "Mesa" : {
-            "Reserva":"Reservar mesa",
-            "EligeComensales":"¿Cuántos comensales habrá?",
-            "Siguiente":"Siguiente",
-            "EligeFecha":"Elige una fecha",
-            "Comensales":"Comensales",
-            "Fecha":"Fecha",
-            "EligeHora" : "Elige una hora",
-            "Hora" : "Hora",
-            "Cancelar" : "Cancelar",
-            "Confirmar" : "Confirmar reserva",
-            "Ninguna" : "-- Ninguna --",
-            "Mesas" : "Mesas",
-            "Para" : "Para",
-            "Personas" : "personas",
-            "Borrar" : "Cancelar reserva"
-        }
+  "Navbar": {
+    "NuestraDimension": "Nuestra Dimensión",
+    "Encuentranos": "Encuéntranos",
+    "Contacto": "Contáctanos",
+    "Redes": "Redes Sociales",
+    "IniciarSesion": "Iniciar sesión",
+    "Registrarme": "Registrarse",
+    "Salas": "Salas",
+    "Taberna": "Taberna",
+    "ModoOscuro": "Modo oscuro",
+    "MiPerfil": "Mi perfil",
+    "CerrarSesion": "Cerrar sesión",
+    "Reservar": "Reservar",
+    "MisReservas": "Mis reservas",
+    "Idioma": {
+      "Nombre": "Idioma",
+      "Español": "Español",
+      "Ingles": "Inglés"
     }
+  },
+  "Home": {
+    "Descubre": "Descubre una dimensión",
+    "Friki": "muy Friki",
+    "Desc": "../../../assets/images/Desc.png",
+    "Cumple": "../../../assets/images/cumpleaños.png",
+    "3X2": "../../../assets/images/3x2.png",
+    "Paneles": {
+      "Izq": {
+        "Taberna": "../../../assets/images/paneltaberna.jpg",
+        "Eventos": "../../../assets/images/paneleventos.jpg"
+      },
+      "Drch": {
+        "Salas": "../../../assets/images/panelsalas.jpg",
+        "Juegos": "../../../assets/images/panelsjuegos.jpg"
+      }
+    }
+  },
+  "Encuentranos": {
+    "Donde": "¿ Dónde Estamos ?",
+    "Direccion": "Dirección:",
+    "Calle": "Calle de la imaginación, local Otro Mundo",
+    "Telf": "Teléfono:",
+    "Numero": "Desconocido"
+  },
+  "Contacto": {
+    "Contacta": "Contacta con nosotros",
+    "Descripcion": "Por favor, utilice uno de los siguientes métodos para poder atender su consulta.",
+    "Email": "Email",
+    "EmailTexto": "Envíanos un mensaje de correo electrónico y te responderemos lo antes posible.",
+    "Enviar": "Enviar correo",
+    "Telf": "Móvil",
+    "TelfTexto": "No dudes en llamar a Natalia, la persona de contacto, si necesitas cualquier cosa.",
+    "Numero": "+34 610 28 02 11"
+  },
+  "Redes": {
+    "Instagram": {
+      "Titulo": "No temáis... ¡Atreveros a descubrir un mundo de otra dimensión!",
+      "Cuerpo": "Síguenos y comparte tus experiencias en la otra dimensión."
+    },
+    "Twitter": {
+      "Titulo": "¿Portal a otra dimensión? ¡Aquí justamente hay uno!",
+      "Cuerpo": "Síguenos y mantente al día de todas las novedades."
+    },
+    "Facebook": {
+      "Titulo": "¡Explorar otra dimensión es mejor si lo compartes!",
+      "Cuerpo": "Síguenos en Facebook, hazte fan y únete a otro mundo."
+    }
+  },
+  "Reservas": {
+    "Sala": {
+      "Reserva": "Reservar sala",
+      "EligeSala": "Elige una sala",
+      "Siguiente": "Siguiente",
+      "EligeFecha": "Elige una fecha",
+      "Sala": "Sala",
+      "Fecha": "Fecha",
+      "EligeHora": "Elige una hora",
+      "Hora": "Hora",
+      "Cancelar": "Cancelar",
+      "Confirmar": "Confirmar reserva",
+      "Ninguna": "-- Ninguna --",
+      "Salas": "Salas",
+      "Borrar": "Cancelar reserva"
+    },
+    "Mesa": {
+      "Reserva": "Reservar mesa",
+      "EligeComensales": "¿Cuántos comensales habrá?",
+      "Siguiente": "Siguiente",
+      "EligeFecha": "Elige una fecha",
+      "Comensales": "Comensales",
+      "Fecha": "Fecha",
+      "EligeHora": "Elige una hora",
+      "Hora": "Hora",
+      "Cancelar": "Cancelar",
+      "Confirmar": "Confirmar reserva",
+      "Ninguna": "-- Ninguna --",
+      "Mesas": "Mesas",
+      "Para": "Para",
+      "Personas": "personas",
+      "Borrar": "Cancelar reserva"
+    }
+  },
+  "Salas": {
+    "Karaoke": {
+      "Titulo": "Sala Karaoke",
+      "Descripcion": "Espacio para soltarse y cantar tu canción favorita, sin miedo de hacer el ridículo."
+    },
+    "Mesa": {
+      "Titulo": "Sala Juegos de Mesa",
+      "Descripcion": "Lugar donde embarcarse en emocionantes juegos de tablero o cartas, solo o con amigos."
+    },
+    "Gaming": {
+      "Titulo": "Sala gaming",
+      "Descripcion": "Sitio donde puedes jugar sin parar algun videojuego que te emocione, como si estuvieras en otra dimensión."
+    },
+    "PlayStation": {
+      "Titulo": "Sala PlayStation",
+      "Descripcion": "Sala dedicada con consolas de Sony, aquí podras jugar a cualquier juego de Play que prefieras."
+    },
+    "Switch": {
+      "Titulo": "Sala Switch",
+      "Descripcion": "Quizá la más familiar y para los peques, sala para jugar a juegos entretenidos y dinámicos."
+    },
+    "Xbox": {
+      "Titulo": "Sala Xbox",
+      "Descripcion": "En este espacio podrás encontrar las consolas de microsoft y jugar a cualquier juego de estas, para los amantes de la profesionalidad y estilo."
+    }
+  },
+  "Taberna": {
+    "Titulo": "Menú de otra dimensión",
+    "Menus": "Menús",
+    "Raciones": "Raciones",
+    "Ensaladas": "Ensaladas",
+    "Comidas": "Comida",
+    "Bebidas": "Bebidas",
+    "Postres": "Postres",
+    "Menu": {
+      "Hamburguesa": {
+        "Titulo": "Menú: Otra Dimensión",
+        "Descripcion": "Hamburguesa, patatas y refresco a elegir. Toda una nueva dimensión por descubrir."
+      },
+      "Pizza": {
+        "Titulo": "Menú: Orbita",
+        "Descripcion": "Pizza mediana, 2 patatas y 2 refrescos a elegir. Perfecto para duos."
+      }
+    },
+    "RacionPatatas": "Patatas fritas",
+    "RacionAritos": "Aritos de cebolla (10u)",
+   "Ensalada" : { 
+       "EnsaladaCesar":{
+        "Titulo":"Ensalada César",
+        "Descripcion":"Típica ensalada césar con un toque extra de ¡Queso!"
+       },
+        "EnsaladaDimension": {
+            "Titulo":"Ensalada Dimensional",
+            "Descripcion":"Ensalada de la casa con: lechuga, tomate cherry, aguacate, patata y piña"
+        }
+    },
+    "Comida" : {
+        "Hamburguesa":"Hamburguesa",
+        "Pizza":"Pizza",
+        "Fajitas":"Fajitas",
+        "Ramen":"Ramen"
+    },
+    "Bebida" : {
+        "Refresco":"Refresco",
+        "Te":"Té",
+        "Monster":"Monster",
+        "Batido":"Batido"
+    },
+    "Postre" : {
+        "Cake" : "Tarta de queso y fresas",
+        "Flan" : "Flan",
+        "Tortitas" : "Tortitas"
+    }
+  }
 }

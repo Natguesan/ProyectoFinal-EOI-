@@ -1,1 +1,60 @@
 @import "src/styles.scss";
+
+.cabecera {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(121, 120, 120);
+    font-family: $fontnavbar;
+}
+.contenedor {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    .card-title{
+        text-align: center;
+    }
+    img{
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .cabecera {
+        height: 200px;
+        background-color: rgba($color: #9be9f7, $alpha: 0.05);
+        font-size: 150px;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+    .cabecera {
+        height: 180px;
+        background-color: rgba($color: #6f9df3, $alpha: 0.05);
+        font-size: 150px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 900px) {
+    .cabecera {
+        height: 150px;
+        background-color: rgba($color: #ce86f0, $alpha: 0.05);
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .cabecera {
+        height: 100px;
+        background-color: rgba($color: #f3c7ef, $alpha: 0.05);
+        font-size: 25px;
+    }
+    .contenedor {
+        flex-direction: column;
+        align-items: center;
+        .card {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+

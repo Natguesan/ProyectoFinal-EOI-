@@ -1,104 +1,178 @@
 {
-    "Navbar" : {
-        "NuestraDimension": "Our Dimension",
-        "Encuentranos":"Find Us",
-        "Contacto":"Contact",
-        "Redes": "Social Media",
-        "IniciarSesion": "Sign in",
-        "Registrarme": "Register",
-        "Salas": "Rooms",
-        "Taberna": "Tavern",
-        "ModoOscuro": "Dark Mode",
-        "MiPerfil" : "My profile",
-        "CerrarSesion": "LogOut",
-        "Reservar" : "Book",
-        "MisReservas" : "My bookings",
-        "Idioma" : {
-            "Nombre" : "Lenguage",
-            "Español" : "Spanish",
-            "Ingles":"English"
-        }  
-    },
-    "Home" : {
-        "Descubre": "Discover a dimension",
-        "Friki" : "very geek",
-        "Desc" : "../../../assets/images/Descingles.png",
-        "Cumple" : "../../../assets/images/cumpleañosingles.png",
-        "3X2" : "../../../assets/images/3x2ingles.png",
-        "Paneles" : {
-            "Izq" : {
-                "Taberna" : "../../../assets/images/paneltabernaingles.jpg",
-                "Eventos" : "../../../assets/images/paneleventosingles.jpg"
-            },
-            "Drch" : {
-                "Salas" : "../../../assets/images/panelsalasingles.jpg",
-                "Juegos" : "../../../assets/images/panelsjuegosingles.jpg"
-            }
-        }
-    },
-    "Encuentranos" : {
-        "Donde" : "Where we are ?",
-        "Direccion" : "Adress:",
-        "Calle" : "Calle de la imaginación, local Otro Mundo",
-        "Telf" : "Telephone:",
-        "Numero" : "Unknown"
-    },
-    "Contacto" : {
-        "Contacta" : "Contact Us",
-        "Descripcion" : "Please use one of the following methods to answer your query.",
-        "Email" : "E-mail",
-        "EmailTexto" : "Send us an e-mail and we will try to respond quickly.",
-        "Enviar" : "Send e-mail",
-        "Telf" : "Mobile",
-        "TelfTexto" : "Don´t hesitate to call Natalia, the contact person, if you need anything.",
-        "Numero" : "+34 610 28 02 11"
-    },
-    "Redes" : {
-        "Instagram" : {
-            "Titulo" : "Fear not... Dare to discover a world from another dimension!",
-            "Cuerpo" : "Follow us and share your experiences in the other dimension."
-        },
-        "Twitter" : {
-            "Titulo" : "Portal to another dimension? Here's just one!",
-            "Cuerpo" : "Follow us and keep up to date with all the news."
-        },
-        "Facebook" : {
-            "Titulo" : "Exploring another dimension is better if you share it!",
-            "Cuerpo" : "Follow us on Facebook, become a fan and join another world."
-        }
-    },
-    "Reservas" : {
-        "Sala": {
-            "Reserva":"Book a room",
-            "EligeSala":"Choose a room type",
-            "Siguiente":"Next",
-            "EligeFecha":"Choose a date",
-            "Sala":"Room",
-            "Fecha":"Date",
-            "EligeHora" : "Choose a time",
-            "Hora" : "Hour",
-            "Cancelar" : "Cancel",
-            "Confirmar" : "Confirm reservation",
-            "Ninguna" : "-- None --",
-            "Salas" : "Rooms",
-            "Borrar" : "Cancel booking"
-        },
-        "Mesa" : {
-            "Reserva":"Book a table",
-            "EligeComensales":"How many diners will there be?",
-            "Siguiente":"Next",
-            "EligeFecha":"Choose a date",
-            "Comensales":"Diners",
-            "Fecha":"Date",
-            "EligeHora" : "Choose a time",
-            "Hora" : "Hour",
-            "Cancelar" : "Cancel",
-            "Confirmar" : "Confirm reservation",
-            "Ninguna" : "-- None --",
-            "Mesas" : "Tables",
-            "Para" : "For",
-            "Personas" : "people",
-            "Borrar" : "Cancel booking"
-        }
+  "Navbar": {
+    "NuestraDimension": "Our Dimension",
+    "Encuentranos": "Find Us",
+    "Contacto": "Contact",
+    "Redes": "Social Media",
+    "IniciarSesion": "Sign in",
+    "Registrarme": "Register",
+    "Salas": "Rooms",
+    "Taberna": "Tavern",
+    "ModoOscuro": "Dark Mode",
+    "MiPerfil": "My profile",
+    "CerrarSesion": "LogOut",
+    "Reservar": "Book",
+    "MisReservas": "My bookings",
+    "Idioma": {
+      "Nombre": "Lenguage",
+      "Español": "Spanish",
+      "Ingles": "English"
     }
+  },
+  "Home": {
+    "Descubre": "Discover a dimension",
+    "Friki": "very geek",
+    "Desc": "../../../assets/images/Descingles.png",
+    "Cumple": "../../../assets/images/cumpleañosingles.png",
+    "3X2": "../../../assets/images/3x2ingles.png",
+    "Paneles": {
+      "Izq": {
+        "Taberna": "../../../assets/images/paneltabernaingles.jpg",
+        "Eventos": "../../../assets/images/paneleventosingles.jpg"
+      },
+      "Drch": {
+        "Salas": "../../../assets/images/panelsalasingles.jpg",
+        "Juegos": "../../../assets/images/panelsjuegosingles.jpg"
+      }
+    }
+  },
+  "Encuentranos": {
+    "Donde": "Where we are ?",
+    "Direccion": "Adress:",
+    "Calle": "Calle de la imaginación, local Otro Mundo",
+    "Telf": "Telephone:",
+    "Numero": "Unknown"
+  },
+  "Contacto": {
+    "Contacta": "Contact Us",
+    "Descripcion": "Please use one of the following methods to answer your query.",
+    "Email": "E-mail",
+    "EmailTexto": "Send us an e-mail and we will try to respond quickly.",
+    "Enviar": "Send e-mail",
+    "Telf": "Mobile",
+    "TelfTexto": "Don´t hesitate to call Natalia, the contact person, if you need anything.",
+    "Numero": "+34 610 28 02 11"
+  },
+  "Redes": {
+    "Instagram": {
+      "Titulo": "Fear not... Dare to discover a world from another dimension!",
+      "Cuerpo": "Follow us and share your experiences in the other dimension."
+    },
+    "Twitter": {
+      "Titulo": "Portal to another dimension? Here's just one!",
+      "Cuerpo": "Follow us and keep up to date with all the news."
+    },
+    "Facebook": {
+      "Titulo": "Exploring another dimension is better if you share it!",
+      "Cuerpo": "Follow us on Facebook, become a fan and join another world."
+    }
+  },
+  "Reservas": {
+    "Sala": {
+      "Reserva": "Book a room",
+      "EligeSala": "Choose a room type",
+      "Siguiente": "Next",
+      "EligeFecha": "Choose a date",
+      "Sala": "Room",
+      "Fecha": "Date",
+      "EligeHora": "Choose a time",
+      "Hora": "Hour",
+      "Cancelar": "Cancel",
+      "Confirmar": "Confirm reservation",
+      "Ninguna": "-- None --",
+      "Salas": "Rooms",
+      "Borrar": "Cancel booking"
+    },
+    "Mesa": {
+      "Reserva": "Book a table",
+      "EligeComensales": "How many diners will there be?",
+      "Siguiente": "Next",
+      "EligeFecha": "Choose a date",
+      "Comensales": "Diners",
+      "Fecha": "Date",
+      "EligeHora": "Choose a time",
+      "Hora": "Hour",
+      "Cancelar": "Cancel",
+      "Confirmar": "Confirm reservation",
+      "Ninguna": "-- None --",
+      "Mesas": "Tables",
+      "Para": "For",
+      "Personas": "people",
+      "Borrar": "Cancel booking"
+    }
+  },
+  "Salas": {
+    "Karaoke": {
+      "Titulo": "Karaoke Room",
+      "Descripcion": "Space to loosen up and sing your favorite song, without fear of making a fool of yourself."
+    },
+    "Mesa": {
+      "Titulo": "Boardgames Room",
+      "Descripcion": "Place to embark on exciting board or card games, alone or with friends."
+    },
+    "Gaming": {
+      "Titulo": "Gaming Room",
+      "Descripcion": "Site where you can play without stopping a video game that excites you, as if you were in another dimension."
+    },
+    "PlayStation": {
+      "Titulo": "PlayStation Room",
+      "Descripcion": "Dedicated room with Sony consoles, here you can play any Play game you prefer."
+    },
+    "Switch": {
+      "Titulo": "Switch Room",
+      "Descripcion": "Perhaps the most familiar and for the little ones, a room to play entertaining and dynamic games."
+    },
+    "Xbox": {
+      "Titulo": "Xbox Room",
+      "Descripcion": "In this space you can find microsoft consoles and play any of these games, for lovers of professionalism and style."
+    }
+  },
+  "Taberna": {
+    "Titulo": "Another dimension menu",
+    "Menus": "Menu",
+    "Raciones": "Rations",
+    "Ensaladas": "Salads",
+    "Comidas": "Food",
+    "Bebidas": "Drinks",
+    "Postres": "Desserts",
+    "Menu": {
+      "Hamburguesa": {
+        "Titulo": "Menu: Another Dimension",
+        "Descripcion": "Hamburger, chips and soft drink. A whole new dimension to discover."
+      },
+      "Pizza": {
+        "Titulo": "Menu: Orbita",
+        "Descripcion": "Medium pizza, 2 chips and 2 soft drinks to choose from. Perfect for duos."
+      }
+    },
+    "RacionPatatas" : "Chips",
+    "RacionAritos" : "Onion rings (10u)",
+    "Ensalada" : { 
+        "EnsaladaCesar":{
+         "Titulo":"Caesar salad",
+         "Descripcion":"Typical Caesar salad with an extra touch of Cheese!"
+        },
+         "EnsaladaDimension": {
+             "Titulo":"Dimensional Salad",
+             "Descripcion":"House salad with: lettuce, cherry tomato, avocado, potato and pineapple"
+         }
+     },
+     "Comida" : {
+         "Hamburguesa":"Hamburguer",
+         "Pizza":"Pizza",
+         "Fajitas":"Fajitas",
+         "Ramen":"Noodles"
+     },
+     "Bebida" : {
+         "Refresco":"Soft drink",
+         "Te":"Tea",
+         "Monster":"Monster",
+         "Batido":"Shake"
+     },
+     "Postre" : {
+         "Cake" : "Strawberry Cheesecake",
+         "Flan" : "Flan",
+         "Tortitas" : "Pancakes"
+     }
+  }
 }
