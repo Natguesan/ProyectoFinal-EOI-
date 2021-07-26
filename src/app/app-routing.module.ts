@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: "book", component: ReservasComponent,canActivate: [AuthGuard]},
   { path: "book-a-table", component: ReservarMesaComponent,canActivate: [AuthGuard]},
   { path: "book-a-room", component: ReservarSalaComponent,canActivate: [AuthGuard]},
-  { path: "profile", component: ProfileComponent,canActivate: [AuthGuard]},
+  { path: "my-bookings", component: ProfileComponent,canActivate: [AuthGuard]},
   { path: "events", component: EventosComponent,}
 
 ];

@@ -1,1 +1,27 @@
 @import "src/styles.scss";
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    font-family: $fuentecuerpo;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: $grisbotones;
+}
+.boton {
+    font-family: $fontnavbar;
+    font-size: $mysubnavbarfontsize;
+    width: 100%;
+    border-radius: 25px;
+}
+@media screen and (max-width:425px){
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 25px;
+    }
+    
+}

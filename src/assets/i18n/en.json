@@ -12,7 +12,7 @@
         "MiPerfil" : "My profile",
         "CerrarSesion": "LogOut",
         "Reservar" : "Book",
-        "MisReservas" : "My reservations",
+        "MisReservas" : "My bookings",
         "Idioma" : {
             "Nombre" : "Lenguage",
             "Español" : "Spanish",
@@ -65,6 +65,40 @@
         "Facebook" : {
             "Titulo" : "Exploring another dimension is better if you share it!",
             "Cuerpo" : "Follow us on Facebook, become a fan and join another world."
+        }
+    },
+    "Reservas" : {
+        "Sala": {
+            "Reserva":"Book a room",
+            "EligeSala":"Choose a room type",
+            "Siguiente":"Next",
+            "EligeFecha":"Choose a date",
+            "Sala":"Room",
+            "Fecha":"Date",
+            "EligeHora" : "Choose a time",
+            "Hora" : "Hour",
+            "Cancelar" : "Cancel",
+            "Confirmar" : "Confirm reservation",
+            "Ninguna" : "-- None --",
+            "Salas" : "Rooms",
+            "Borrar" : "Cancel booking"
+        },
+        "Mesa" : {
+            "Reserva":"Book a table",
+            "EligeComensales":"How many diners will there be?",
+            "Siguiente":"Next",
+            "EligeFecha":"Choose a date",
+            "Comensales":"Diners",
+            "Fecha":"Date",
+            "EligeHora" : "Choose a time",
+            "Hora" : "Hour",
+            "Cancelar" : "Cancel",
+            "Confirmar" : "Confirm reservation",
+            "Ninguna" : "-- None --",
+            "Mesas" : "Tables",
+            "Para" : "For",
+            "Personas" : "people",
+            "Borrar" : "Cancel booking"
         }
     }
 }

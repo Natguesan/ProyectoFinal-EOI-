@@ -113,8 +113,8 @@
         </button>
         <!-- #docregion sub-menu -->
         <mat-menu class="matmenu" #usermenu="matMenu">
-          <button *ngIf="logeado === true" class="matitem" mat-menu-item [routerLink]="'/profile'">
-            {{ "Navbar.MiPerfil" | translate }}
+          <button *ngIf="logeado === true" class="matitem" mat-menu-item [routerLink]="'/my-bookings'">
+            {{ "Navbar.MisReservas" | translate }}
           </button>
           <button
             class="matitem"

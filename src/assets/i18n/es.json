@@ -67,5 +67,40 @@
             "Titulo" : "¡Explorar otra dimensión es mejor si lo compartes!",
             "Cuerpo" : "Síguenos en Facebook, hazte fan y únete a otro mundo."
         }
+    },
+    "Reservas" : {
+        "Sala": {
+            "Reserva":"Reservar sala",
+            "EligeSala":"Elige una sala",
+            "Siguiente":"Siguiente",
+            "EligeFecha":"Elige una fecha",
+            "Sala":"Sala",
+            "Fecha":"Fecha",
+            "EligeHora" : "Elige una hora",
+            "Hora" : "Hora",
+            "Cancelar" : "Cancelar",
+            "Confirmar" : "Confirmar reserva",
+            "Ninguna" : "-- Ninguna --",
+            "Salas" : "Salas",
+            "Borrar" : "Cancelar reserva"
+            
+        },
+        "Mesa" : {
+            "Reserva":"Reservar mesa",
+            "EligeComensales":"¿Cuántos comensales habrá?",
+            "Siguiente":"Siguiente",
+            "EligeFecha":"Elige una fecha",
+            "Comensales":"Comensales",
+            "Fecha":"Fecha",
+            "EligeHora" : "Elige una hora",
+            "Hora" : "Hora",
+            "Cancelar" : "Cancelar",
+            "Confirmar" : "Confirmar reserva",
+            "Ninguna" : "-- Ninguna --",
+            "Mesas" : "Mesas",
+            "Para" : "Para",
+            "Personas" : "personas",
+            "Borrar" : "Cancelar reserva"
+        }
     }
 }

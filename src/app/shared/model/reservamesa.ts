@@ -1,7 +1,7 @@
-export interface Reserva {
+export interface ReservaMesa {
     id?: string,
     uid?: string,
     fecha: string,
     hora: number,
-    sala: string
+    comensales: number
 }

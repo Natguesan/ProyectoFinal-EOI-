@@ -1,1 +1,84 @@
-<p>reservar-sala works!</p>
+<div class="contenedorprincipal">
+  <mat-stepper
+    color="accent"
+    orientation="vertical"
+    [linear]="isLinear"
+    #stepper
+  >
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>{{ "Reservas.Sala.EligeSala" | translate }}</ng-template>
+        <mat-form-field appearance="fill">
+          <mat-label>{{ "Reservas.Sala.Sala" | translate }}</mat-label>
+          <mat-select
+            formControlName="salas"
+            (selectionChange)="changesala()"
+            required
+          >
+            <mat-option>{{ "Reservas.Sala.Ninguna" | translate }}</mat-option>
+            <mat-optgroup
+              *ngFor="let group of salasGroups"
+              [label]="group.name"
+              [disabled]="group.disabled"
+            >
+              <mat-option *ngFor="let sala of group.salas" [value]="sala.value">
+                {{ sala.value }}
+              </mat-option>
+            </mat-optgroup>
+          </mat-select>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperNext>{{ "Reservas.Sala.Siguiente" | translate }}</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>{{ "Reservas.Sala.EligeFecha" | translate }}</ng-template>
+        <mat-form-field appearance="fill">
+          <mat-label>{{ "Reservas.Sala.Fecha" | translate }}</mat-label>
+          <input
+            matInput
+            formControlName="secondCtrl"
+            [matDatepicker]="picker"
+            [min]="today"
+            [max]="max"
+            (dateInput)="changefecha()"
+            (dateChange)="searchreservas($event)"
+            required
+          />
+          <mat-datepicker-toggle
+            matSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperNext>{{ "Reservas.Sala.Siguiente" | translate }}</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="thirtFormGroup">
+      <form [formGroup]="thirtFormGroup">
+        <ng-template matStepLabel>{{ "Reservas.Sala.EligeHora" | translate }}</ng-template>
+        <mat-form-field appearance="fill">
+          <mat-label>{{ "Reservas.Sala.Hora" | translate }}</mat-label>
+          <mat-select
+            formControlName="hora"
+            (selectionChange)="changehora()"
+            required
+          >
+            <mat-option>{{ "Reservas.Sala.Ninguna" | translate }}</mat-option>
+            <mat-option *ngFor="let hora of horasdisponibles" [value]="hora">
+              {{ hora }}:00
+            </mat-option>
+          </mat-select>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>{{ "Reservas.Sala.Cancelar" | translate }}</button>
+          <button mat-button (click)="crearReserva()">{{ "Reservas.Sala.Confirmar" | translate }}</button>
+        </div>
+      </form>
+    </mat-step>
+  </mat-stepper>
+</div>

@@ -1,1 +1,19 @@
 @import "src/styles.scss";
+.boton {
+    width: 100%;
+    height: 15%;
+    font-family: $fontnavbar;
+    font-size: $titlefontsize;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+    
+@media screen and (max-width: 768px) {
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
