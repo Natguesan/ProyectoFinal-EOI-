@@ -58,7 +58,6 @@ export class ReservarMesaComponent implements OnInit {
         data.forEach((doc) => {
           let date: number = doc.get("hora");
           this.horasocupadas.push(date)
-          console.log(doc.id, " => ", doc.data(), " => ", date + ":00");
         });
         this.filtrado();
       });
@@ -67,21 +66,17 @@ export class ReservarMesaComponent implements OnInit {
     this.horasdisponibles = this.horas;
     const horasocupadas = this.horasocupadas;
     this.horasdisponibles = this.horasdisponibles.filter(hora => !horasocupadas.includes(hora));
-    console.log(this.horasdisponibles);
   }
   changeComensales(): void {
     this.comensales = this.firstFormGroup.value.personas
-    console.log(this.comensales)
   }
   changefecha(): void {
     let fecha = this.secondFormGroup.value.secondCtrl;
     const fechaformat = moment(fecha).format("DD/MM/YYYY");
     this.fechaElegida = fechaformat;
-    console.log(this.fechaElegida)
   }
   changehora(): void {
     this.hora = this.thirtFormGroup.value.hora;
-    console.log(this.hora)
   }
   crearReserva(): void {
     const reserva: ReservaMesa = {

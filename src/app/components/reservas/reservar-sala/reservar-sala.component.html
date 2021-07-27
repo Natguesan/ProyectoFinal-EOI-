@@ -75,7 +75,7 @@
           </mat-select>
         </mat-form-field>
         <div>
-          <button mat-button matStepperPrevious>{{ "Reservas.Sala.Cancelar" | translate }}</button>
+            <button mat-button [routerLink]="'/book'">{{ "Reservas.Sala.Cancelar" | translate }}</button>
           <button mat-button (click)="crearReserva()">{{ "Reservas.Sala.Confirmar" | translate }}</button>
         </div>
       </form>

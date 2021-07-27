@@ -17,7 +17,9 @@
       "Nombre": "Idioma",
       "Español": "Español",
       "Ingles": "Inglés"
-    }
+    },
+    "Cancelar" : "Cancelar",
+    "SignIn" : "Entrar con Google"
   },
   "Home": {
     "Descubre": "Descubre una dimensión",
