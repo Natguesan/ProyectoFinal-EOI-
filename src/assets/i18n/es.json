@@ -176,5 +176,15 @@
         "Flan" : "Flan",
         "Tortitas" : "Tortitas"
     }
+  },
+  "LOPD" : {
+      "Politica":"Politica de privacidad",
+      "1" : "En LA OTRA DIMENSIÓN garantizamos la protección de datos de nuestros visitantes.",
+      "2" : "El sello de CSI (Certificado de Seguridad de la Información), nos avala como una web segura que cumple el código ético de protección de datos en internet.",
+      "3" : "La web de LA OTRA DIMENSIÓN, en www.laotradimension.es, no reconoce de modo automático ningún dato referente a la identidad de los visitantes de su página.",
+      "4" : "En los servicios que ofrecemos, nuestro objetivo es generar un sitio web de confianza donde nuestra mayor prioridad es garantizar la seguridad y confidencialidad en las visitas, a través de la solicitud de registro e identificación dentro del mismo.",
+      "5" : "En los supuestos que el usuario del sitio web necesite, poner reclamaciones, realizar reportes sobre incidencias, reservas u otras cuestiones se pondrá a disposición del usuario un formulario donde se recojan todas estas cuestiones.",
+      "6" : "En todo caso será necesario recoger aquellos datos personales imprescindibles para poder informar y solucionar el reporte mediante este medio.",
+      "7" : "Todos estos datos son trasladados con absoluta confidencialidad, no siendo accesibles en momento alguno por terceros para finalidades distintas para las que han sido solicitados."
   }
 }

@@ -18,8 +18,8 @@
       "Español": "Spanish",
       "Ingles": "English"
     },
-    "Cancelar" : "Cancel",
-    "SignIn" : "Sign in with Google"
+    "Cancelar": "Cancel",
+    "SignIn": "Sign in with Google"
   },
   "Home": {
     "Descubre": "Discover a dimension",
@@ -147,34 +147,44 @@
         "Descripcion": "Medium pizza, 2 chips and 2 soft drinks to choose from. Perfect for duos."
       }
     },
-    "RacionPatatas" : "Chips",
-    "RacionAritos" : "Onion rings (10u)",
-    "Ensalada" : { 
-        "EnsaladaCesar":{
-         "Titulo":"Caesar salad",
-         "Descripcion":"Typical Caesar salad with an extra touch of Cheese!"
-        },
-         "EnsaladaDimension": {
-             "Titulo":"Dimensional Salad",
-             "Descripcion":"House salad with: lettuce, cherry tomato, avocado, potato and pineapple"
-         }
-     },
-     "Comida" : {
-         "Hamburguesa":"Hamburguer",
-         "Pizza":"Pizza",
-         "Fajitas":"Fajitas",
-         "Ramen":"Noodles"
-     },
-     "Bebida" : {
-         "Refresco":"Soft drink",
-         "Te":"Tea",
-         "Monster":"Monster",
-         "Batido":"Shake"
-     },
-     "Postre" : {
-         "Cake" : "Strawberry Cheesecake",
-         "Flan" : "Flan",
-         "Tortitas" : "Pancakes"
-     }
+    "RacionPatatas": "Chips",
+    "RacionAritos": "Onion rings (10u)",
+    "Ensalada": {
+      "EnsaladaCesar": {
+        "Titulo": "Caesar salad",
+        "Descripcion": "Typical Caesar salad with an extra touch of Cheese!"
+      },
+      "EnsaladaDimension": {
+        "Titulo": "Dimensional Salad",
+        "Descripcion": "House salad with: lettuce, cherry tomato, avocado, potato and pineapple"
+      }
+    },
+    "Comida": {
+      "Hamburguesa": "Hamburguer",
+      "Pizza": "Pizza",
+      "Fajitas": "Fajitas",
+      "Ramen": "Noodles"
+    },
+    "Bebida": {
+      "Refresco": "Soft drink",
+      "Te": "Tea",
+      "Monster": "Monster",
+      "Batido": "Shake"
+    },
+    "Postre": {
+      "Cake": "Strawberry Cheesecake",
+      "Flan": "Flan",
+      "Tortitas": "Pancakes"
+    }
+  },
+  "LOPD": {
+    "Politica": "Privacy Policy",
+    "1": "In LA OTRA DIMENSION we guarantee the protection of our visitor's data.",
+    "2": "The CSI seal (Information Security Certificate) guarantees us as a secure website that complies with the ethical code of data protection on the internet.",
+    "3": "The website of LA OTRA DIMENSION, at www.laotradimension.es, does not automatically recognize any data regarding the identity of visitors to its page.",
+    "4": "In the services we offer, our objective is to generate a trustworthy website where our highest priority is to guarantee security and confidentiality in visits, through the request for registration and identification within it.",
+    "5": "In the cases that the user of the website needs, make claims, make reports about incidents, reservations or other questions, a form will be made available to the user where all these questions are collected.",
+    "6": "In any case, it will be necessary to collect those essential personal data to be able to inform and solve the report through this means.",
+    "7": "All these data are transferred with absolute confidentiality, not being accessible at any time by third parties for purposes other than those for which they have been requested."
   }
 }

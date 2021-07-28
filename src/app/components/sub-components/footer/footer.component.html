@@ -1,1 +1,86 @@
-<footer><p>footer works!</p></footer>
+<footer>
+  <button
+  class="boton"
+    mat-stroked-button
+    color="warn"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"
+  >
+    {{ "LOPD.Politica" | translate }}
+  </button>
+  <div *ngIf="!isMobile" class="links">
+    <button
+      mat-mini-fab
+      color=""
+      class="circle-link"
+      href="https://discord.gg/QD8gsN69u9"
+      target="_blank"
+    >
+      <i class="fab fa-discord"></i>
+    </button>
+    <button
+      mat-mini-fab
+      color=""
+      class="circle-link"
+      href="https://discord.gg/QD8gsN69u9"
+      target="_blank"
+    >
+      <i class="fab fa-facebook"></i>
+    </button>
+    <button
+      mat-mini-fab
+      color=""
+      class="circle-link"
+      href="https://discord.gg/QD8gsN69u9"
+      target="_blank"
+    >
+      <i class="fab fa-instagram"></i>
+    </button>
+    <button
+      mat-mini-fab
+      color=""
+      class="circle-link"
+      href="https://discord.gg/QD8gsN69u9"
+      target="_blank"
+    >
+      <i class="fab fa-twitter"></i>
+    </button>
+  </div>
+</footer>
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          {{ "LOPD.Politica" | translate }}
+        </h5>
+        <button
+          type="button"
+          class="btn btn-dark btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        {{ "LOPD.1" | translate }}<br /><br />
+        {{ "LOPD.2" | translate }}<br /><br />
+        {{ "LOPD.3" | translate }}<br /><br />
+        {{ "LOPD.4" | translate }}<br /><br />
+        {{ "LOPD.5" | translate }}<br /><br />
+        {{ "LOPD.6" | translate }}<br /><br />
+        {{ "LOPD.7" | translate }}
+      </div>
+      <div class="modal-footer">
+        <button mat-stroked-button color="warn" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -83,9 +83,9 @@
       <ul class="navbar-nav">
         <div class="botones" *ngIf="isMobile === false">
       <li class="nav-item matbutton" *ngIf="logeado === false">
-        <button mat-flat-button color="warn" class="nav-link matbuttons hidden" [routerLink]="'/register'">
+        <!--<button mat-flat-button color="warn" class="nav-link matbuttons" [routerLink]="'/register'">
           {{ "Navbar.Registrarme" | translate }}
-        </button>
+        </button>-->
       </li>
       <li class="nav-item matbutton" *ngIf="logeado === true">
         <button mat-flat-button class="nav-link matbuttons" [routerLink]="'/book'" >
@@ -123,16 +123,16 @@
           >
             {{ "Navbar.Idioma.Nombre" | translate }}
           </button>
-          <div class="darkmode matitem" mat-menu-item>
+         <!-- Proximamente <div class="darkmode matitem" mat-menu-item>
             <label>{{ "Navbar.ModoOscuro" | translate }}</label>
             <mat-slide-toggle class="matitem"></mat-slide-toggle>
-          </div>
+          </div>-->
           <button *ngIf="logeado === false" class="matitem" mat-menu-item data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             {{ "Navbar.IniciarSesion" | translate }}
           </button>
-          <button *ngIf="logeado === false && isMobile === true" class="matitem hidden" [routerLink]="'/register'" mat-menu-item>
+          <!--<button *ngIf="logeado === false && isMobile === true" class="matitem" [routerLink]="'/register'" mat-menu-item>
             {{ "Navbar.Registrarme" | translate }}
-          </button>
+          </button>-->
           <button *ngIf="logeado === true && isMobile === true" class="matitem" [routerLink]="'/book'" mat-menu-item>
             {{ "Navbar.Reservar" | translate }}
           </button>
